@@ -10,6 +10,6 @@
   $obj_name = new Tourist();
   $rs2 = $obj_name->editTouristeditTourist($activity_id, $activity_name, $description, $date);
 
-  header('Location: ../Homepage.php?updated=true');
+  header('Location: ../index.php');
   exit;
 ?>
